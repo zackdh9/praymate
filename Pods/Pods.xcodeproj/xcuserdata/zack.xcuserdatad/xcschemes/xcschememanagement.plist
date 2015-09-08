@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-PrayMate-Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PrayMate-Facebook-iOS-SDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PrayMate-MRProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PrayMate-ParseUI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PrayMate.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1C129DE978DA36587D73DC35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AFAB7C9943438E7154578EB4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFA0EF2ED150C46A63641128</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED66BB3A73FF5BE75E77C2EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEB3A0A877587D71A9EA98CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

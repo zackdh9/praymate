@@ -1,0 +1,55 @@
+PODS:
+  - Bolts (1.1.4)
+  - Facebook-iOS-SDK (3.23.2):
+    - Bolts (~> 1.0)
+  - MRProgress (0.8.1):
+    - MRProgress/ActivityIndicator (= 0.8.1)
+    - MRProgress/Blur (= 0.8.1)
+    - MRProgress/Circular (= 0.8.1)
+    - MRProgress/Icons (= 0.8.1)
+    - MRProgress/NavigationBarProgress (= 0.8.1)
+    - MRProgress/Overlay (= 0.8.1)
+  - MRProgress/ActivityIndicator (0.8.1):
+    - MRProgress/Stopable
+  - MRProgress/Blur (0.8.1):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.8.1):
+    - MRProgress/Helper
+    - MRProgress/ProgressBaseClass
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.8.1)
+  - MRProgress/Icons (0.8.1)
+  - MRProgress/NavigationBarProgress (0.8.1):
+    - MRProgress/ProgressBaseClass
+  - MRProgress/Overlay (0.8.1):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/ProgressBaseClass (0.8.1)
+  - MRProgress/Stopable (0.8.1):
+    - MRProgress/Helper
+  - Parse (1.7.0):
+    - Bolts (~> 1.1)
+  - ParseFacebookUtils (1.7.0):
+    - Facebook-iOS-SDK (~> 3.23)
+    - Parse (~> 1.7.0)
+  - ParseUI (1.1.1):
+    - Parse (~> 1.6)
+    - ParseFacebookUtils (~> 1.6)
+
+DEPENDENCIES:
+  - MRProgress
+  - Parse
+  - ParseUI
+
+SPEC CHECKSUMS:
+  Bolts: dd9fb8433d67f5acc3b6b4d1379bbc5513d716c1
+  Facebook-iOS-SDK: cd87f0b2f0c1d9574b44e8fa2baacc275524bac3
+  MRProgress: cd12726e001ea25dec133322d34cc4754cbc58f8
+  Parse: 3c2d4e6ade7b59d31c0bc8106340c6b81b31bc0f
+  ParseFacebookUtils: f0c954253a65e945d7cb73400c33bc661f516b85
+  ParseUI: f7e9e0e5271f75a19c74ead8fdd95d36160e268e
+
+COCOAPODS: 0.36.0

@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140E00481AA6745B00D0E1AA /* prayLITEsmaller@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 140E00471AA6745B00D0E1AA /* prayLITEsmaller@2X.png */; };
+		140E004A1AA6790F00D0E1AA /* prayGOLDsmaller@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 140E00491AA6790F00D0E1AA /* prayGOLDsmaller@2x.png */; };
+		140E004D1AA6A3EA00D0E1AA /* PMEditPrayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140E004C1AA6A3E900D0E1AA /* PMEditPrayerViewController.m */; };
+		14230BA71AC738240013C8D1 /* envelopeLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14230BA51AC738240013C8D1 /* envelopeLight@2x.png */; };
+		14230BA81AC738240013C8D1 /* envelopeDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14230BA61AC738240013C8D1 /* envelopeDark@2x.png */; };
+		14230BAB1AC895F30013C8D1 /* smallEnvelopeLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14230BA91AC895F30013C8D1 /* smallEnvelopeLight@2x.png */; };
+		14230BAC1AC895F30013C8D1 /* smallEnvelope@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14230BAA1AC895F30013C8D1 /* smallEnvelope@2x.png */; };
+		1446B6511A0C53D00037EFED /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1446B6501A0C53D00037EFED /* location@2x.png */; };
+		1446B6531A0CCCDC0037EFED /* pmLogo4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1446B6521A0CCCDC0037EFED /* pmLogo4@2x.png */; };
+		1446B6551A0CCD8C0037EFED /* pmLogo3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1446B6541A0CCD8C0037EFED /* pmLogo3@2x.png */; };
+		1446B6571A0CD1470037EFED /* pmLR@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1446B6561A0CD1460037EFED /* pmLR@2x.png */; };
+		144BB0571AC4FA8D00B247EE /* PMPersistentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 144BB0561AC4FA8D00B247EE /* PMPersistentView.m */; };
+		144BB05D1AC506B300B247EE /* PMPersistentTabBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 144BB05C1AC506B300B247EE /* PMPersistentTabBorder.m */; };
+		144BB0601AC5096E00B247EE /* PMUITabBarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144BB05F1AC5096E00B247EE /* PMUITabBarControllerViewController.m */; };
+		144BB0621AC5D23B00B247EE /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144BB0611AC5D23B00B247EE /* Accelerate.framework */; };
+		144BB0661AC621CF00B247EE /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 144BB0651AC621CE00B247EE /* clock@2x.png */; };
+		1491B33719FA36ED00FBCFBF /* earth117@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1491B33519FA36ED00FBCFBF /* earth117@2x.png */; };
+		1491B33819FA36ED00FBCFBF /* earth126@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1491B33619FA36ED00FBCFBF /* earth126@2x.png */; };
+		1491B33B19FA3A8000FBCFBF /* customTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 1491B33A19FA3A8000FBCFBF /* customTab.m */; };
+		1491B33D19FA56EB00FBCFBF /* d2arktab3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1491B33C19FA56EB00FBCFBF /* d2arktab3@2x.png */; };
+		1491B33F19FA56FA00FBCFBF /* t2ab3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1491B33E19FA56FA00FBCFBF /* t2ab3@2x.png */; };
+		1491B34119FA58D900FBCFBF /* earthfront@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1491B34019FA58D900FBCFBF /* earthfront@2x.png */; };
+		1491B34319FA59AB00FBCFBF /* earthback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1491B34219FA59AB00FBCFBF /* earthback@2x.png */; };
+		149D3FC519F4C4B800E9E611 /* PMCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149D3FC419F4C4B800E9E611 /* PMCommentViewController.m */; };
+		149D3FC819F4CB3900E9E611 /* token.m in Sources */ = {isa = PBXBuildFile; fileRef = 149D3FC719F4CB3900E9E611 /* token.m */; };
+		149D3FCB19F4D0A900E9E611 /* PMMyPrayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149D3FCA19F4D0A900E9E611 /* PMMyPrayersViewController.m */; };
+		14A450D119DE7A7D0019F5CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A450D019DE7A7C0019F5CB /* Foundation.framework */; };
+		14A450D319DE7A7D0019F5CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A450D219DE7A7D0019F5CB /* CoreGraphics.framework */; };
+		14A450D519DE7A7D0019F5CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A450D419DE7A7D0019F5CB /* UIKit.framework */; };
+		14A450D719DE7A7D0019F5CB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A450D619DE7A7D0019F5CB /* CoreData.framework */; };
+		14A450DD19DE7A7D0019F5CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14A450DB19DE7A7D0019F5CB /* InfoPlist.strings */; };
+		14A450DF19DE7A7D0019F5CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A450DE19DE7A7D0019F5CB /* main.m */; };
+		14A450E319DE7A7D0019F5CB /* PMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A450E219DE7A7D0019F5CB /* PMAppDelegate.m */; };
+		14A450E619DE7A7D0019F5CB /* PrayMate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14A450E419DE7A7D0019F5CB /* PrayMate.xcdatamodeld */; };
+		14A450E819DE7A7E0019F5CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A450E719DE7A7E0019F5CB /* Images.xcassets */; };
+		14A450EF19DE7A7E0019F5CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A450EE19DE7A7E0019F5CB /* XCTest.framework */; };
+		14A450F019DE7A7E0019F5CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A450D019DE7A7C0019F5CB /* Foundation.framework */; };
+		14A450F119DE7A7E0019F5CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A450D419DE7A7D0019F5CB /* UIKit.framework */; };
+		14A450F219DE7A7E0019F5CB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A450D619DE7A7D0019F5CB /* CoreData.framework */; };
+		14A450FA19DE7A7E0019F5CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14A450F819DE7A7E0019F5CB /* InfoPlist.strings */; };
+		14A450FC19DE7A7E0019F5CB /* PrayMateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A450FB19DE7A7E0019F5CB /* PrayMateTests.m */; };
+		14A4510619DE7B110019F5CB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A4510519DE7B110019F5CB /* Storyboard.storyboard */; };
+		14A4510819DE7C8B0019F5CB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A4510719DE7C8B0019F5CB /* Parse.framework */; };
+		14A4510A19DE7DD80019F5CB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A4510919DE7DD80019F5CB /* AudioToolbox.framework */; };
+		14A4510C19DE7DE10019F5CB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A4510B19DE7DE10019F5CB /* CFNetwork.framework */; };
+		14A4510E19DE7DFE0019F5CB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A4510D19DE7DFE0019F5CB /* libz.dylib */; };
+		14A4511019DE7E0B0019F5CB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A4510F19DE7E0B0019F5CB /* MobileCoreServices.framework */; };
+		14A4511219DE7E130019F5CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A4511119DE7E130019F5CB /* QuartzCore.framework */; };
+		14A4511419DE7E1B0019F5CB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A4511319DE7E1B0019F5CB /* Security.framework */; };
+		14A4511619DE7E270019F5CB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A4511519DE7E270019F5CB /* StoreKit.framework */; };
+		14A4511819DE7E330019F5CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A4511719DE7E330019F5CB /* SystemConfiguration.framework */; };
+		14A4511E19DE81B80019F5CB /* PMComposePrayerRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A4511D19DE81B80019F5CB /* PMComposePrayerRequestViewController.m */; };
+		14A4512119DE8A770019F5CB /* PrayerTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A4512019DE8A770019F5CB /* PrayerTableController.m */; };
+		14FA37091A080C0E0082B0D0 /* PMGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA37081A080C0E0082B0D0 /* PMGroupViewController.m */; };
+		14FA370C1A08126D0082B0D0 /* PMCreateGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA370B1A08126D0082B0D0 /* PMCreateGroupViewController.m */; };
+		14FA37121A08258B0082B0D0 /* PMFindGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA37111A08258B0082B0D0 /* PMFindGroupsViewController.m */; };
+		14FA371A1A087EB70082B0D0 /* backIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FA37131A087EB60082B0D0 /* backIcon@2x.png */; };
+		14FA371B1A087EB70082B0D0 /* flagIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FA37141A087EB60082B0D0 /* flagIcon@2x.png */; };
+		14FA371C1A087EB70082B0D0 /* groupsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FA37151A087EB60082B0D0 /* groupsIcon@2x.png */; };
+		14FA371D1A087EB70082B0D0 /* groupsIcondark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FA37161A087EB60082B0D0 /* groupsIcondark@2x.png */; };
+		14FA371E1A087EB70082B0D0 /* groupsIcondarkBow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FA37171A087EB60082B0D0 /* groupsIcondarkBow@2x.png */; };
+		14FA371F1A087EB70082B0D0 /* pb2dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FA37181A087EB60082B0D0 /* pb2dark@2x.png */; };
+		14FA37201A087EB70082B0D0 /* pb2light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FA37191A087EB60082B0D0 /* pb2light@2x.png */; };
+		14FA37221A0B59A30082B0D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FA37211A0B59A30082B0D0 /* CoreLocation.framework */; };
+		F61D16C561C5C7EA1EA1A39D /* libPods-PrayMate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E696D947FFCFEC4AA5EFF9 /* libPods-PrayMate.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14A450F319DE7A7E0019F5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14A450C519DE7A7B0019F5CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14A450CC19DE7A7C0019F5CB;
+			remoteInfo = PrayMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		140E00471AA6745B00D0E1AA /* prayLITEsmaller@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prayLITEsmaller@2X.png"; sourceTree = "<group>"; };
+		140E00491AA6790F00D0E1AA /* prayGOLDsmaller@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prayGOLDsmaller@2x.png"; sourceTree = "<group>"; };
+		140E004B1AA6A3E900D0E1AA /* PMEditPrayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMEditPrayerViewController.h; sourceTree = "<group>"; };
+		140E004C1AA6A3E900D0E1AA /* PMEditPrayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMEditPrayerViewController.m; sourceTree = "<group>"; };
+		14230BA51AC738240013C8D1 /* envelopeLight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "envelopeLight@2x.png"; sourceTree = "<group>"; };
+		14230BA61AC738240013C8D1 /* envelopeDark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "envelopeDark@2x.png"; sourceTree = "<group>"; };
+		14230BA91AC895F30013C8D1 /* smallEnvelopeLight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smallEnvelopeLight@2x.png"; sourceTree = "<group>"; };
+		14230BAA1AC895F30013C8D1 /* smallEnvelope@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smallEnvelope@2x.png"; sourceTree = "<group>"; };
+		1446B6501A0C53D00037EFED /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
+		1446B6521A0CCCDC0037EFED /* pmLogo4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pmLogo4@2x.png"; sourceTree = "<group>"; };
+		1446B6541A0CCD8C0037EFED /* pmLogo3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pmLogo3@2x.png"; sourceTree = "<group>"; };
+		1446B6561A0CD1460037EFED /* pmLR@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pmLR@2x.png"; sourceTree = "<group>"; };
+		144BB0551AC4FA8D00B247EE /* PMPersistentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMPersistentView.h; sourceTree = "<group>"; };
+		144BB0561AC4FA8D00B247EE /* PMPersistentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMPersistentView.m; sourceTree = "<group>"; };
+		144BB05B1AC506B300B247EE /* PMPersistentTabBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMPersistentTabBorder.h; sourceTree = "<group>"; };
+		144BB05C1AC506B300B247EE /* PMPersistentTabBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMPersistentTabBorder.m; sourceTree = "<group>"; };
+		144BB05E1AC5096E00B247EE /* PMUITabBarControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMUITabBarControllerViewController.h; sourceTree = "<group>"; };
+		144BB05F1AC5096E00B247EE /* PMUITabBarControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMUITabBarControllerViewController.m; sourceTree = "<group>"; };
+		144BB0611AC5D23B00B247EE /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		144BB0631AC5D26400B247EE /* libPods-PrayMate-MRProgress.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PrayMate-MRProgress.a"; path = "Pods/../build/Debug-iphoneos/libPods-PrayMate-MRProgress.a"; sourceTree = "<group>"; };
+		144BB0651AC621CE00B247EE /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		1491B33519FA36ED00FBCFBF /* earth117@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earth117@2x.png"; path = "../earth117@2x.png"; sourceTree = "<group>"; };
+		1491B33619FA36ED00FBCFBF /* earth126@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earth126@2x.png"; path = "../earth126@2x.png"; sourceTree = "<group>"; };
+		1491B33919FA3A8000FBCFBF /* customTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = customTab.h; path = ../customTab.h; sourceTree = "<group>"; };
+		1491B33A19FA3A8000FBCFBF /* customTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = customTab.m; path = ../customTab.m; sourceTree = "<group>"; };
+		1491B33C19FA56EB00FBCFBF /* d2arktab3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "d2arktab3@2x.png"; path = "../d2arktab3@2x.png"; sourceTree = "<group>"; };
+		1491B33E19FA56FA00FBCFBF /* t2ab3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "t2ab3@2x.png"; path = "../t2ab3@2x.png"; sourceTree = "<group>"; };
+		1491B34019FA58D900FBCFBF /* earthfront@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earthfront@2x.png"; path = "../earthfront@2x.png"; sourceTree = "<group>"; };
+		1491B34219FA59AB00FBCFBF /* earthback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earthback@2x.png"; path = "../earthback@2x.png"; sourceTree = "<group>"; };
+		149D3FC319F4C4B800E9E611 /* PMCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMCommentViewController.h; path = ../PMCommentViewController.h; sourceTree = "<group>"; };
+		149D3FC419F4C4B800E9E611 /* PMCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMCommentViewController.m; path = ../PMCommentViewController.m; sourceTree = "<group>"; };
+		149D3FC619F4CB3900E9E611 /* token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = token.h; path = ../token.h; sourceTree = "<group>"; };
+		149D3FC719F4CB3900E9E611 /* token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = token.m; path = ../token.m; sourceTree = "<group>"; };
+		149D3FC919F4D0A900E9E611 /* PMMyPrayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMMyPrayersViewController.h; path = ../PMMyPrayersViewController.h; sourceTree = "<group>"; };
+		149D3FCA19F4D0A900E9E611 /* PMMyPrayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMMyPrayersViewController.m; path = ../PMMyPrayersViewController.m; sourceTree = "<group>"; };
+		14A450CD19DE7A7C0019F5CB /* PrayMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A450D019DE7A7C0019F5CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14A450D219DE7A7D0019F5CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14A450D419DE7A7D0019F5CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14A450D619DE7A7D0019F5CB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		14A450DA19DE7A7D0019F5CB /* PrayMate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrayMate-Info.plist"; sourceTree = "<group>"; };
+		14A450DC19DE7A7D0019F5CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14A450DE19DE7A7D0019F5CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14A450E019DE7A7D0019F5CB /* PrayMate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrayMate-Prefix.pch"; sourceTree = "<group>"; };
+		14A450E119DE7A7D0019F5CB /* PMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMAppDelegate.h; sourceTree = "<group>"; };
+		14A450E219DE7A7D0019F5CB /* PMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMAppDelegate.m; sourceTree = "<group>"; };
+		14A450E519DE7A7D0019F5CB /* PrayMate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrayMate.xcdatamodel; sourceTree = "<group>"; };
+		14A450E719DE7A7E0019F5CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14A450ED19DE7A7E0019F5CB /* PrayMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrayMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A450EE19DE7A7E0019F5CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		14A450F719DE7A7E0019F5CB /* PrayMateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrayMateTests-Info.plist"; sourceTree = "<group>"; };
+		14A450F919DE7A7E0019F5CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14A450FB19DE7A7E0019F5CB /* PrayMateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrayMateTests.m; sourceTree = "<group>"; };
+		14A4510519DE7B110019F5CB /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		14A4510719DE7C8B0019F5CB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		14A4510919DE7DD80019F5CB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		14A4510B19DE7DE10019F5CB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		14A4510D19DE7DFE0019F5CB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		14A4510F19DE7E0B0019F5CB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		14A4511119DE7E130019F5CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		14A4511319DE7E1B0019F5CB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		14A4511519DE7E270019F5CB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		14A4511719DE7E330019F5CB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		14A4511C19DE81B80019F5CB /* PMComposePrayerRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMComposePrayerRequestViewController.h; path = ../PMComposePrayerRequestViewController.h; sourceTree = "<group>"; };
+		14A4511D19DE81B80019F5CB /* PMComposePrayerRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMComposePrayerRequestViewController.m; path = ../PMComposePrayerRequestViewController.m; sourceTree = "<group>"; };
+		14A4511F19DE8A770019F5CB /* PrayerTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrayerTableController.h; path = ../PrayerTableController.h; sourceTree = "<group>"; };
+		14A4512019DE8A770019F5CB /* PrayerTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PrayerTableController.m; path = ../PrayerTableController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		14FA37071A080C0E0082B0D0 /* PMGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMGroupViewController.h; sourceTree = "<group>"; };
+		14FA37081A080C0E0082B0D0 /* PMGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMGroupViewController.m; sourceTree = "<group>"; };
+		14FA370A1A08126D0082B0D0 /* PMCreateGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMCreateGroupViewController.h; path = ../PMCreateGroupViewController.h; sourceTree = "<group>"; };
+		14FA370B1A08126D0082B0D0 /* PMCreateGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMCreateGroupViewController.m; path = ../PMCreateGroupViewController.m; sourceTree = "<group>"; };
+		14FA37101A08258B0082B0D0 /* PMFindGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMFindGroupsViewController.h; sourceTree = "<group>"; };
+		14FA37111A08258B0082B0D0 /* PMFindGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMFindGroupsViewController.m; sourceTree = "<group>"; };
+		14FA37131A087EB60082B0D0 /* backIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backIcon@2x.png"; sourceTree = "<group>"; };
+		14FA37141A087EB60082B0D0 /* flagIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flagIcon@2x.png"; sourceTree = "<group>"; };
+		14FA37151A087EB60082B0D0 /* groupsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groupsIcon@2x.png"; sourceTree = "<group>"; };
+		14FA37161A087EB60082B0D0 /* groupsIcondark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groupsIcondark@2x.png"; sourceTree = "<group>"; };
+		14FA37171A087EB60082B0D0 /* groupsIcondarkBow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groupsIcondarkBow@2x.png"; sourceTree = "<group>"; };
+		14FA37181A087EB60082B0D0 /* pb2dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pb2dark@2x.png"; sourceTree = "<group>"; };
+		14FA37191A087EB60082B0D0 /* pb2light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pb2light@2x.png"; sourceTree = "<group>"; };
+		14FA37211A0B59A30082B0D0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		942B1DDB13C217A799AB2EC8 /* Pods-PrayMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrayMate.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrayMate/Pods-PrayMate.release.xcconfig"; sourceTree = "<group>"; };
+		B37FA3619ACC13572D10612C /* Pods-PrayMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrayMate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrayMate/Pods-PrayMate.debug.xcconfig"; sourceTree = "<group>"; };
+		D0E696D947FFCFEC4AA5EFF9 /* libPods-PrayMate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrayMate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14A450CA19DE7A7C0019F5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A450D319DE7A7D0019F5CB /* CoreGraphics.framework in Frameworks */,
+				144BB0621AC5D23B00B247EE /* Accelerate.framework in Frameworks */,
+				14A4511019DE7E0B0019F5CB /* MobileCoreServices.framework in Frameworks */,
+				14FA37221A0B59A30082B0D0 /* CoreLocation.framework in Frameworks */,
+				14A4511819DE7E330019F5CB /* SystemConfiguration.framework in Frameworks */,
+				14A4511619DE7E270019F5CB /* StoreKit.framework in Frameworks */,
+				14A4511419DE7E1B0019F5CB /* Security.framework in Frameworks */,
+				14A4511219DE7E130019F5CB /* QuartzCore.framework in Frameworks */,
+				14A4510E19DE7DFE0019F5CB /* libz.dylib in Frameworks */,
+				14A4510C19DE7DE10019F5CB /* CFNetwork.framework in Frameworks */,
+				14A4510A19DE7DD80019F5CB /* AudioToolbox.framework in Frameworks */,
+				14A450D719DE7A7D0019F5CB /* CoreData.framework in Frameworks */,
+				14A450D519DE7A7D0019F5CB /* UIKit.framework in Frameworks */,
+				14A450D119DE7A7D0019F5CB /* Foundation.framework in Frameworks */,
+				14A4510819DE7C8B0019F5CB /* Parse.framework in Frameworks */,
+				F61D16C561C5C7EA1EA1A39D /* libPods-PrayMate.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A450EA19DE7A7E0019F5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A450EF19DE7A7E0019F5CB /* XCTest.framework in Frameworks */,
+				14A450F219DE7A7E0019F5CB /* CoreData.framework in Frameworks */,
+				14A450F119DE7A7E0019F5CB /* UIKit.framework in Frameworks */,
+				14A450F019DE7A7E0019F5CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A450C419DE7A7A0019F5CB = {
+			isa = PBXGroup;
+			children = (
+				14A450D819DE7A7D0019F5CB /* PrayMate */,
+				14A450F519DE7A7E0019F5CB /* PrayMateTests */,
+				14A450CF19DE7A7C0019F5CB /* Frameworks */,
+				14A450CE19DE7A7C0019F5CB /* Products */,
+				C0DBDCF5D8755A387B54CA55 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		14A450CE19DE7A7C0019F5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14A450CD19DE7A7C0019F5CB /* PrayMate.app */,
+				14A450ED19DE7A7E0019F5CB /* PrayMateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14A450CF19DE7A7C0019F5CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				144BB0631AC5D26400B247EE /* libPods-PrayMate-MRProgress.a */,
+				144BB0611AC5D23B00B247EE /* Accelerate.framework */,
+				14FA37211A0B59A30082B0D0 /* CoreLocation.framework */,
+				14A4511719DE7E330019F5CB /* SystemConfiguration.framework */,
+				14A4511519DE7E270019F5CB /* StoreKit.framework */,
+				14A4511319DE7E1B0019F5CB /* Security.framework */,
+				14A4511119DE7E130019F5CB /* QuartzCore.framework */,
+				14A4510F19DE7E0B0019F5CB /* MobileCoreServices.framework */,
+				14A4510D19DE7DFE0019F5CB /* libz.dylib */,
+				14A4510B19DE7DE10019F5CB /* CFNetwork.framework */,
+				14A4510919DE7DD80019F5CB /* AudioToolbox.framework */,
+				14A4510719DE7C8B0019F5CB /* Parse.framework */,
+				14A450D019DE7A7C0019F5CB /* Foundation.framework */,
+				14A450D219DE7A7D0019F5CB /* CoreGraphics.framework */,
+				14A450D419DE7A7D0019F5CB /* UIKit.framework */,
+				14A450D619DE7A7D0019F5CB /* CoreData.framework */,
+				14A450EE19DE7A7E0019F5CB /* XCTest.framework */,
+				D0E696D947FFCFEC4AA5EFF9 /* libPods-PrayMate.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14A450D819DE7A7D0019F5CB /* PrayMate */ = {
+			isa = PBXGroup;
+			children = (
+				14A4510519DE7B110019F5CB /* Storyboard.storyboard */,
+				144BB0551AC4FA8D00B247EE /* PMPersistentView.h */,
+				144BB0561AC4FA8D00B247EE /* PMPersistentView.m */,
+				14A450E219DE7A7D0019F5CB /* PMAppDelegate.m */,
+				14A450E119DE7A7D0019F5CB /* PMAppDelegate.h */,
+				144BB05B1AC506B300B247EE /* PMPersistentTabBorder.h */,
+				144BB05C1AC506B300B247EE /* PMPersistentTabBorder.m */,
+				144BB05E1AC5096E00B247EE /* PMUITabBarControllerViewController.h */,
+				144BB05F1AC5096E00B247EE /* PMUITabBarControllerViewController.m */,
+				14FA370E1A0812A30082B0D0 /* prayers */,
+				14FA370F1A0812B20082B0D0 /* notifications */,
+				14FA370D1A0812820082B0D0 /* groups */,
+				14A450E719DE7A7E0019F5CB /* Images.xcassets */,
+				14230BA51AC738240013C8D1 /* envelopeLight@2x.png */,
+				14230BA61AC738240013C8D1 /* envelopeDark@2x.png */,
+				14230BA91AC895F30013C8D1 /* smallEnvelopeLight@2x.png */,
+				14230BAA1AC895F30013C8D1 /* smallEnvelope@2x.png */,
+				144BB0651AC621CE00B247EE /* clock@2x.png */,
+				140E00491AA6790F00D0E1AA /* prayGOLDsmaller@2x.png */,
+				140E00471AA6745B00D0E1AA /* prayLITEsmaller@2X.png */,
+				1446B6561A0CD1460037EFED /* pmLR@2x.png */,
+				1446B6541A0CCD8C0037EFED /* pmLogo3@2x.png */,
+				1446B6521A0CCCDC0037EFED /* pmLogo4@2x.png */,
+				1446B6501A0C53D00037EFED /* location@2x.png */,
+				14FA37131A087EB60082B0D0 /* backIcon@2x.png */,
+				14FA37141A087EB60082B0D0 /* flagIcon@2x.png */,
+				14FA37151A087EB60082B0D0 /* groupsIcon@2x.png */,
+				14FA37161A087EB60082B0D0 /* groupsIcondark@2x.png */,
+				14FA37171A087EB60082B0D0 /* groupsIcondarkBow@2x.png */,
+				14FA37181A087EB60082B0D0 /* pb2dark@2x.png */,
+				14FA37191A087EB60082B0D0 /* pb2light@2x.png */,
+				1491B33519FA36ED00FBCFBF /* earth117@2x.png */,
+				1491B34019FA58D900FBCFBF /* earthfront@2x.png */,
+				1491B34219FA59AB00FBCFBF /* earthback@2x.png */,
+				1491B33619FA36ED00FBCFBF /* earth126@2x.png */,
+				1491B33C19FA56EB00FBCFBF /* d2arktab3@2x.png */,
+				1491B33E19FA56FA00FBCFBF /* t2ab3@2x.png */,
+				14A450E419DE7A7D0019F5CB /* PrayMate.xcdatamodeld */,
+				14A450D919DE7A7D0019F5CB /* Supporting Files */,
+			);
+			path = PrayMate;
+			sourceTree = "<group>";
+		};
+		14A450D919DE7A7D0019F5CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				149D3FC619F4CB3900E9E611 /* token.h */,
+				149D3FC719F4CB3900E9E611 /* token.m */,
+				1491B33919FA3A8000FBCFBF /* customTab.h */,
+				1491B33A19FA3A8000FBCFBF /* customTab.m */,
+				14A450DA19DE7A7D0019F5CB /* PrayMate-Info.plist */,
+				14A450DB19DE7A7D0019F5CB /* InfoPlist.strings */,
+				14A450DE19DE7A7D0019F5CB /* main.m */,
+				14A450E019DE7A7D0019F5CB /* PrayMate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14A450F519DE7A7E0019F5CB /* PrayMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				14A450FB19DE7A7E0019F5CB /* PrayMateTests.m */,
+				14A450F619DE7A7E0019F5CB /* Supporting Files */,
+			);
+			path = PrayMateTests;
+			sourceTree = "<group>";
+		};
+		14A450F619DE7A7E0019F5CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14A450F719DE7A7E0019F5CB /* PrayMateTests-Info.plist */,
+				14A450F819DE7A7E0019F5CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14FA370D1A0812820082B0D0 /* groups */ = {
+			isa = PBXGroup;
+			children = (
+				14FA37071A080C0E0082B0D0 /* PMGroupViewController.h */,
+				14FA37081A080C0E0082B0D0 /* PMGroupViewController.m */,
+				14FA370A1A08126D0082B0D0 /* PMCreateGroupViewController.h */,
+				14FA370B1A08126D0082B0D0 /* PMCreateGroupViewController.m */,
+				14FA37101A08258B0082B0D0 /* PMFindGroupsViewController.h */,
+				14FA37111A08258B0082B0D0 /* PMFindGroupsViewController.m */,
+			);
+			name = groups;
+			sourceTree = "<group>";
+		};
+		14FA370E1A0812A30082B0D0 /* prayers */ = {
+			isa = PBXGroup;
+			children = (
+				140E004B1AA6A3E900D0E1AA /* PMEditPrayerViewController.h */,
+				140E004C1AA6A3E900D0E1AA /* PMEditPrayerViewController.m */,
+				14A4511F19DE8A770019F5CB /* PrayerTableController.h */,
+				14A4512019DE8A770019F5CB /* PrayerTableController.m */,
+				149D3FC319F4C4B800E9E611 /* PMCommentViewController.h */,
+				149D3FC419F4C4B800E9E611 /* PMCommentViewController.m */,
+				14A4511C19DE81B80019F5CB /* PMComposePrayerRequestViewController.h */,
+				14A4511D19DE81B80019F5CB /* PMComposePrayerRequestViewController.m */,
+			);
+			name = prayers;
+			sourceTree = "<group>";
+		};
+		14FA370F1A0812B20082B0D0 /* notifications */ = {
+			isa = PBXGroup;
+			children = (
+				149D3FC919F4D0A900E9E611 /* PMMyPrayersViewController.h */,
+				149D3FCA19F4D0A900E9E611 /* PMMyPrayersViewController.m */,
+			);
+			name = notifications;
+			sourceTree = "<group>";
+		};
+		C0DBDCF5D8755A387B54CA55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B37FA3619ACC13572D10612C /* Pods-PrayMate.debug.xcconfig */,
+				942B1DDB13C217A799AB2EC8 /* Pods-PrayMate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14A450CC19DE7A7C0019F5CB /* PrayMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A450FF19DE7A7F0019F5CB /* Build configuration list for PBXNativeTarget "PrayMate" */;
+			buildPhases = (
+				497BE853C0A97AC759EBA6AA /* Check Pods Manifest.lock */,
+				14A450C919DE7A7C0019F5CB /* Sources */,
+				14A450CA19DE7A7C0019F5CB /* Frameworks */,
+				14A450CB19DE7A7C0019F5CB /* Resources */,
+				1F39D17E4AD2605E9504761C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrayMate;
+			productName = PrayMate;
+			productReference = 14A450CD19DE7A7C0019F5CB /* PrayMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14A450EC19DE7A7E0019F5CB /* PrayMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A4510219DE7A7F0019F5CB /* Build configuration list for PBXNativeTarget "PrayMateTests" */;
+			buildPhases = (
+				14A450E919DE7A7E0019F5CB /* Sources */,
+				14A450EA19DE7A7E0019F5CB /* Frameworks */,
+				14A450EB19DE7A7E0019F5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14A450F419DE7A7E0019F5CB /* PBXTargetDependency */,
+			);
+			name = PrayMateTests;
+			productName = PrayMateTests;
+			productReference = 14A450ED19DE7A7E0019F5CB /* PrayMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14A450C519DE7A7B0019F5CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PM;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "zachary hamblen";
+				TargetAttributes = {
+					14A450CC19DE7A7C0019F5CB = {
+						DevelopmentTeam = E2M5SYS2C7;
+					};
+					14A450EC19DE7A7E0019F5CB = {
+						TestTargetID = 14A450CC19DE7A7C0019F5CB;
+					};
+				};
+			};
+			buildConfigurationList = 14A450C819DE7A7B0019F5CB /* Build configuration list for PBXProject "PrayMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14A450C419DE7A7A0019F5CB;
+			productRefGroup = 14A450CE19DE7A7C0019F5CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14A450CC19DE7A7C0019F5CB /* PrayMate */,
+				14A450EC19DE7A7E0019F5CB /* PrayMateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14A450CB19DE7A7C0019F5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FA371E1A087EB70082B0D0 /* groupsIcondarkBow@2x.png in Resources */,
+				14FA371A1A087EB70082B0D0 /* backIcon@2x.png in Resources */,
+				14FA371D1A087EB70082B0D0 /* groupsIcondark@2x.png in Resources */,
+				1491B33D19FA56EB00FBCFBF /* d2arktab3@2x.png in Resources */,
+				1446B6551A0CCD8C0037EFED /* pmLogo3@2x.png in Resources */,
+				1491B33F19FA56FA00FBCFBF /* t2ab3@2x.png in Resources */,
+				14FA371B1A087EB70082B0D0 /* flagIcon@2x.png in Resources */,
+				14230BA71AC738240013C8D1 /* envelopeLight@2x.png in Resources */,
+				1491B33819FA36ED00FBCFBF /* earth126@2x.png in Resources */,
+				1491B34119FA58D900FBCFBF /* earthfront@2x.png in Resources */,
+				14FA37201A087EB70082B0D0 /* pb2light@2x.png in Resources */,
+				1491B33719FA36ED00FBCFBF /* earth117@2x.png in Resources */,
+				144BB0661AC621CF00B247EE /* clock@2x.png in Resources */,
+				1446B6511A0C53D00037EFED /* location@2x.png in Resources */,
+				14230BAC1AC895F30013C8D1 /* smallEnvelope@2x.png in Resources */,
+				14FA371C1A087EB70082B0D0 /* groupsIcon@2x.png in Resources */,
+				1491B34319FA59AB00FBCFBF /* earthback@2x.png in Resources */,
+				140E00481AA6745B00D0E1AA /* prayLITEsmaller@2X.png in Resources */,
+				14A450DD19DE7A7D0019F5CB /* InfoPlist.strings in Resources */,
+				1446B6571A0CD1470037EFED /* pmLR@2x.png in Resources */,
+				140E004A1AA6790F00D0E1AA /* prayGOLDsmaller@2x.png in Resources */,
+				14A450E819DE7A7E0019F5CB /* Images.xcassets in Resources */,
+				1446B6531A0CCCDC0037EFED /* pmLogo4@2x.png in Resources */,
+				14230BA81AC738240013C8D1 /* envelopeDark@2x.png in Resources */,
+				14FA371F1A087EB70082B0D0 /* pb2dark@2x.png in Resources */,
+				14A4510619DE7B110019F5CB /* Storyboard.storyboard in Resources */,
+				14230BAB1AC895F30013C8D1 /* smallEnvelopeLight@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A450EB19DE7A7E0019F5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A450FA19DE7A7E0019F5CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F39D17E4AD2605E9504761C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrayMate/Pods-PrayMate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		497BE853C0A97AC759EBA6AA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14A450C919DE7A7C0019F5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A4512119DE8A770019F5CB /* PrayerTableController.m in Sources */,
+				14FA37091A080C0E0082B0D0 /* PMGroupViewController.m in Sources */,
+				144BB0571AC4FA8D00B247EE /* PMPersistentView.m in Sources */,
+				149D3FC519F4C4B800E9E611 /* PMCommentViewController.m in Sources */,
+				140E004D1AA6A3EA00D0E1AA /* PMEditPrayerViewController.m in Sources */,
+				1491B33B19FA3A8000FBCFBF /* customTab.m in Sources */,
+				14A4511E19DE81B80019F5CB /* PMComposePrayerRequestViewController.m in Sources */,
+				14A450DF19DE7A7D0019F5CB /* main.m in Sources */,
+				14A450E319DE7A7D0019F5CB /* PMAppDelegate.m in Sources */,
+				144BB0601AC5096E00B247EE /* PMUITabBarControllerViewController.m in Sources */,
+				149D3FC819F4CB3900E9E611 /* token.m in Sources */,
+				14FA37121A08258B0082B0D0 /* PMFindGroupsViewController.m in Sources */,
+				14FA370C1A08126D0082B0D0 /* PMCreateGroupViewController.m in Sources */,
+				149D3FCB19F4D0A900E9E611 /* PMMyPrayersViewController.m in Sources */,
+				144BB05D1AC506B300B247EE /* PMPersistentTabBorder.m in Sources */,
+				14A450E619DE7A7D0019F5CB /* PrayMate.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A450E919DE7A7E0019F5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A450FC19DE7A7E0019F5CB /* PrayMateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14A450F419DE7A7E0019F5CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14A450CC19DE7A7C0019F5CB /* PrayMate */;
+			targetProxy = 14A450F319DE7A7E0019F5CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14A450DB19DE7A7D0019F5CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A450DC19DE7A7D0019F5CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14A450F819DE7A7E0019F5CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A450F919DE7A7E0019F5CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14A450FD19DE7A7F0019F5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: zack hamblen (E2M5SYS2C7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: zack hamblen (E2M5SYS2C7)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14A450FE19DE7A7F0019F5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: zack hamblen (E2M5SYS2C7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: zack hamblen (E2M5SYS2C7)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14A4510019DE7A7F0019F5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37FA3619ACC13572D10612C /* Pods-PrayMate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrayMate/PrayMate-Prefix.pch";
+				INFOPLIST_FILE = "PrayMate/PrayMate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14A4510119DE7A7F0019F5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942B1DDB13C217A799AB2EC8 /* Pods-PrayMate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrayMate/PrayMate-Prefix.pch";
+				INFOPLIST_FILE = "PrayMate/PrayMate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		14A4510319DE7A7F0019F5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrayMate.app/PrayMate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrayMate/PrayMate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PrayMateTests/PrayMateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		14A4510419DE7A7F0019F5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrayMate.app/PrayMate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrayMate/PrayMate-Prefix.pch";
+				INFOPLIST_FILE = "PrayMateTests/PrayMateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14A450C819DE7A7B0019F5CB /* Build configuration list for PBXProject "PrayMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A450FD19DE7A7F0019F5CB /* Debug */,
+				14A450FE19DE7A7F0019F5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A450FF19DE7A7F0019F5CB /* Build configuration list for PBXNativeTarget "PrayMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A4510019DE7A7F0019F5CB /* Debug */,
+				14A4510119DE7A7F0019F5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A4510219DE7A7F0019F5CB /* Build configuration list for PBXNativeTarget "PrayMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A4510319DE7A7F0019F5CB /* Debug */,
+				14A4510419DE7A7F0019F5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		14A450E419DE7A7D0019F5CB /* PrayMate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14A450E519DE7A7D0019F5CB /* PrayMate.xcdatamodel */,
+			);
+			currentVersion = 14A450E519DE7A7D0019F5CB /* PrayMate.xcdatamodel */;
+			path = PrayMate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 14A450C519DE7A7B0019F5CB /* Project object */;
+}
